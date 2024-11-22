@@ -1,6 +1,6 @@
 module example.com/mymodule
 
-go 1.20
+go 1.23.3
 
 require (
 	example.com/othermodule v1.2.3
