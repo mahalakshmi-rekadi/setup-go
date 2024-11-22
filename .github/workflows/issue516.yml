@@ -21,4 +21,4 @@ jobs:
       with:
         go-version: "${{ matrix.go }}"
         cache: false
-    - run: go version
+
