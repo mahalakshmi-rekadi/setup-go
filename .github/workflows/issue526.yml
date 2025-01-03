@@ -1,0 +1,13 @@
+name: Go
+on: 
+   workflow_dispatch:
+
+jobs:
+  ci:
+    name: "run linting"
+    strategy:
+      fail-fast: true
+      matrix:
+        os:  ["ubuntu-latest"]
+        go:  ['1.22']
+    runs-on: ${{ matrix.os }}
